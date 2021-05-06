@@ -1,9 +1,7 @@
-<div class="grid-container-100" >
-		<div class="barHead">
-		<a class="fontHead" href="index.php">Home</a>
-		<a class="fontHead" href="about.php">About</a>
-		<a  class="fontHead" href="social.php">Contact</a>
-		</div>
-	</div>
-
-    
+<div class="grid-100 barHead">
+	<a class="fontHead" href="home.php">Home</a>
+	<a class="fontHead" href="about.php">About</a>
+	<a class="fontHead" href="social.php">Contact</a>
+	<!-- <a class="fontHead" href="addItem.php">+ Item</a>
+	<a class="fontHead" href="projects.php">Projects</a> -->
+</div>

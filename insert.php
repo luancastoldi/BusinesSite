@@ -12,12 +12,12 @@
     if ($exec)
 	{
 	   $mensagem = urldecode("Ok !");
-		header("Location:index.php?msg=$mensagem");
+		header("Location:home.php?msg=$mensagem");
 	
 	}
 	else{
 		$mensagem = urldecode("Erro");
-		header("Location:index.php?msg=$mensagem");
+		header("Location:home.php?msg=$mensagem");
 		
 	}
 ?>

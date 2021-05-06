@@ -20,14 +20,20 @@
         </div>
 
         <div class="grid-100 image-about">
-        <img  src="css/imagens/eu.png" >      
+        <img  style="visibility: visible;" src="css/imagens/eu.png" >      
         </div>
 
-        <div class="resume grid-100" >
-        My name is Luan Castoldi, i have 21 years old. I am new in the programming. But i am learning
-        JavaScript, React Native, HTML, CSS, PHP and AutoHotkey
+        <div class="grid-100" >
+      <h2 style="color: white; text-align: center;">  My name is Luan Castoldi, i have 21 years old. I am new in the programming. But i am learning
+        JavaScript, React Native, HTML, CSS, PHP and AutoHotkey</h2>
         </div>
-    </div>
-        
+
+		<div class="grid-100 grid1">
+			<img class="imagemHome" src="css/imagens/js.png">
+			<img class="imagemHome" src="css/imagens/html.png">
+			<img class="imagemHome" src="css/imagens/css.png">
+			<img class="imagemHome" src="css/imagens/rn.png">
+	</div>
+
 </body>
 </html>

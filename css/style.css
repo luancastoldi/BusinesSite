@@ -1,121 +1,300 @@
-*{
-	padding: 0;
-	margin: 0;
-	font-family: 'Alata', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata', sans-serif;
 }
-body{
-	background-color: #eee;
-	
+
+img {
+    visibility: hidden;
 }
-.barHead
-{
-	border-style: solid;
-	border-bottom-color: black;
-	border-width: 5px;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	padding-bottom: 10px;
-	border-radius: 5px;
-	font-size: 25px;	
-	margin-top: 5px;
-	text-align: center;
+
+body {
+    background-color: #1c1c1c
 }
-.fontHead{
-	text-decoration: none;
-	color: black;
-	padding-right: 20px;
-	padding-left: 10px;
+
+.barHead {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    top: 0;
+    left: 0;
 }
-.fontHead:hover{
-	color: black;
-	border-top-width: 10px;
-	border-top-style: solid;
-	border-color:black;
-	
+
+.fontHead {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #1c1c1c;
 }
-.title{
-	font-size: 70px;
-	text-align: center;
-	color: black;
-	padding-top: 40px;
+
+.fontHead:hover {
+    color: #fb0abf;
 }
-.resume{
-	color: black;
-	text-align: center;
-	font-size: 20px;
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-img{
-	height: 200px;
-	width: 200px;
-	margin-top: 30px;
-	padding: 15px;
+
+.resume {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
-.social-icon{
-	text-align: center;
-	margin-top: 50px;
+
+img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    padding: 15px;
+    visibility: hidden;
 }
+
+.social-icon {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-about {
+    text-align: center;
+}
+
+.image-about img {
+    border-radius: 50%;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    padding: 0;
+    margin-right: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.global-send {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.global-comments {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+input[type=text] {
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+.grid2 {
+    margin-top: 40px;
+}
+
+.grid1 {
+    text-align: center;
+    margin-top: 50px;
+    /* background-color: #fb0abf; */
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.imagemHome {
+    height: 100px;
+    width: 100px;
+    visibility: visible;
+}
+
+.socialImage {
+    visibility: visible;
+    filter: invert(75%);
+}
+
+.clickIndex {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, grey, white);
+}
+
+.clickIndex:hover {
+    background-image: linear-gradient(to bottom right, white, grey);
+    color: black;
+}
+
+.gridIndex {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.divPro {
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.nameAndTitle {
+    background-image: url("imagens/big.jpg");
+    background-size: cover;
+}
+
+.allPro {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.comments {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.textAll {
+    text-align: left;
+    word-break: normal;
+}
+
 .zoom {
-	overflow: hidden;	
+    overflow: hidden;
+    position: relative;
 }
+
 .zoom img {
-	position: unset;
-	max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+    position: unset;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .zoom:hover img {
-	-moz-transform: scale(1.2);
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
-.image-about{
-	text-align: center;
+
+.imgBig {
+    visibility: visible;
+    height: 100%;
+    width: 100%;
 }
-.image-about img{
-	border-radius: 50%;
-	border-color: black;
-	border-width: 5px;
-	border-style: solid;
-	padding: 0;
-	margin-right: 10px;
-	height: 150px;
-	width: 150px;
+
+.imgShow {
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
 }
-.global-send{
-	font-size: 30px;
-	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+
+.containerImg {
+    position: relative;
 }
-.global-comments{
-	margin-top: 10px;
-	color: black;
-	font-size: 20px;
+
+.imageImg {
+    width: 50%;
+    height: 50%;
+    visibility: visible;
+    filter: invert(100%);
+    text-align: center;
 }
-input[type=submit]{
-	background-color: black;
-	border: none;
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-	font-size: 15px;
-	border-radius: 7px;
-	padding: 5px;
-	width: 5%;
-  }
-  input[type=submit]:hover{
-	  background-color: rgba(82, 187, 61, 0.911);
-  }
-  input[type=text]{
-	padding: 5px;
-	border-radius: 7px;
-	  font-size: 15px;
-	  border: none;
-	  color: black;
-	  text-align: center;
-	  padding: 0;
-	  width: 10%;
-  } 
+
+.overlayImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .6s ease;
+    opacity: 90%;
+}
+
+
+.containerImg:hover .overlayImg {
+    height: 100%;
+    width: 100%;
+}
+
+.textImg {
+    /* white-space: nowrap; */
+    text-decoration: none;
+    color: #fb0abf;
+    font-size: 65px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.titlePro {
+    color: black
+}
+
+/* .buy {
+    text-decoration: none;
+    color: white;
+    background-color: #fb0abf;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+} */
+/* 
+.donw {
+    background-color: #00ff00;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 7px;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    padding: 10px;
+} */
